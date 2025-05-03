@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+    
+}
+#nav{
+    display: flex;
+    
+}
+#drop{
+   margin-left: 900px;
+   display: none;
+}
+.main-menu{
+    display: flex;
+   
+}
+.logo{
+    background-color: white;
+}
+.box1{
+    background-color: white;
+    padding: 50px;
+}
+#header{
+    display: flex;
+    background-color: white;
+}
+.card{
+    overflow: hidden;
+}
+.relative{
+    width: 300px;
+    height: 120px;
+    margin-left: 800px;
+    margin-top: 70px;
+    background-color: blue;
+    opacity: 0.5;
+    
+}
+.sum{
+    display: flex;
+}
+#sub{
+    padding-left: 100px;
+    overflow: hidden ;
+}
+.relative button{
+    background-color: blue;
+    color: white;
+}
+#summer{
+    background-color: bisque;
+    display: flex;
+}
+#sam{
+    width: 50%;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 200px;
+    margin-top: 210px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+}
+#terms{
+    display: flex;
+    padding: 20px 0 100px 25px;
+}
+
+@media (max-width: 768px){
+    .box1{
+       width: 100%;
+       padding: 0;
+    }
+    .card img{
+        height: 270px;
+    }
+    .relative{
+        margin-left: 300px;
+        margin-top: 40px;
+        
+    }
+    #header{
+        font-size: 12px;
+    }
+    #header h1{
+        font-size: 20px;
+    }
+    .sum{
+        display: flex;
+        gap: 20px;
+        padding: 0;
+    }
+    #content img{
+        width: 300px;
+        height: 150px;
+    }
+    #sub{
+        font-size: 12px;
+        padding: 0px;
+    }
+    
+    #sam{
+        width: 250px;
+    }
+    #sam img{
+        width: 250px;
+        height: 150px;
+    }
+    #sam p{
+        font-size: 12px;
+    }
+    #sam h2{
+        font-size: 20px;
+    }
+    .box{
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 250px;
+       height: 300px;
+       padding: 10px;
+    }
+    .box img{
+        width: 20px;
+        height: 20px;
+    }
+    #terms a{
+        font-size: 12px;
+    }
+    #terms p{
+        font-size: 12px;
+    }
+    #terms{
+        display: flex;
+
+    }
+   
+}
+@media (max-width: 475px){
+    
+    .box1{
+        overflow: hidden;
+    }
+    .logo {
+       display: flex;
+       justify-content: center;
+    }
+    .relative{
+        margin-left: 100px;
+        background-color: transparent;
+        opacity: 1;
+        
+    }
+    #nav{
+        display: block;
+    }
+    #drop{
+        display: block;
+        margin-left: 350px;
+    }
+    .card img{
+        height: 150px;
+    }
+    .relative h1{
+        font-size: 20px;
+    }
+    .relative button{
+        font-size: 10px;
+        background-color: transparent;
+    }
+    #header{
+        display: block;
+        width: 100%;
+        font-size: medium;
+    }
+    .sum{
+        display: block;
+    }
+    #content img{
+        width: 335px;
+    }
+    #summer{
+        display: block;
+    }
+    .box{
+        margin-top: 30px;
+        margin-left: 25px;
+        width: 300px;
+    }
+    #sam{
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
+    #sam img{
+        width: 200px;
+        height: 100px;
+    }
+   #terms{
+    display: none;
+   }
+}
